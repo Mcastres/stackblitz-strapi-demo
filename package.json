@@ -21,7 +21,6 @@
     "@strapi/plugin-graphql": "4.12.6",
     "@strapi/plugin-seo": "^1.9.0",
     "@webbio/strapi-plugin-scheduler": "^0.1.2",
-    "better-sqlite3": "^8.5.0",
     "dotenv": "^16.3.1",
     "fs-extra": "^10.0.0",
     "uuid-v4": "^0.1.0"
