@@ -1,0 +1,17 @@
+diff --git a/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js b/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
+index 2c42fdb..8ea5f8c 100644
+--- a/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
++++ b/node_modules/@strapi/admin/admin/src/pages/AuthPage/components/Login/BaseLogin.js
+@@ -34,9 +34,9 @@ const Login = ({ onSubmit, schema, children }) => {
+         <Formik
+           enableReinitialize
+           initialValues={{
+-            email: '',
+-            password: '',
+-            rememberMe: false,
++            email: 'admin@strapidemo.com',
++            password: 'welcomeToStrapi123',
++            rememberMe: true,
+           }}
+           onSubmit={onSubmit}
+           validationSchema={schema}
