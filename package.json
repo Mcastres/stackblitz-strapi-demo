@@ -15,7 +15,16 @@
     "@strapi/strapi": "4.12.1",
     "patch-package": "^8.0.0",
     "postinstall-postinstall": "^2.1.0",
-    "sqlite3": "npm:@webassembly/sqlite3@5.0.2-blitz.2"
+    "sqlite3": "npm:@webassembly/sqlite3@5.0.2-blitz.2",
+    "@ckeditor/strapi-plugin-ckeditor": "^0.0.7",
+    "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-graphql": "4.12.6",
+    "@strapi/plugin-seo": "^1.9.0",
+    "@webbio/strapi-plugin-scheduler": "^0.1.2",
+    "better-sqlite3": "^8.5.0",
+    "dotenv": "^16.3.1",
+    "fs-extra": "^10.0.0",
+    "uuid-v4": "^0.1.0"
   },
   "author": {
     "name": "A Strapi developer"
